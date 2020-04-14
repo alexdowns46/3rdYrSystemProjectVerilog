@@ -1,0 +1,44 @@
+<sld_project_info>
+  <hub_info ir_width="8" node_count="1"/>
+  <node_info>
+    <node hpath="sld_signaltap:auto_signaltap_0" instance_id="0" mfg_id="110" node_id="0" sld_node_info="0x28006E00" version="5">
+      <parameters>
+        <parameter name="lpm_type" type="string" value="sld_signaltap"/>
+        <parameter name="sld_node_info" type="unknown" value="671116800"/>
+        <parameter name="sld_ip_version" type="dec" value="5"/>
+        <parameter name="sld_ip_minor_version" type="dec" value="0"/>
+        <parameter name="sld_common_ip_version" type="dec" value="0"/>
+        <parameter name="sld_data_bits" type="unknown" value="31"/>
+        <parameter name="sld_trigger_bits" type="unknown" value="31"/>
+        <parameter name="sld_data_bit_cntr_bits" type="unknown" value="5"/>
+        <parameter name="sld_node_crc_bits" type="dec" value="32"/>
+        <parameter name="sld_node_crc_hiword" type="unknown" value="36050"/>
+        <parameter name="sld_node_crc_loword" type="unknown" value="16800"/>
+        <parameter name="sld_incremental_routing" type="dec" value="0"/>
+        <parameter name="sld_sample_depth" type="unknown" value="128"/>
+        <parameter name="sld_mem_address_bits" type="unknown" value="7"/>
+        <parameter name="sld_ram_block_type" type="string" value="AUTO"/>
+        <parameter name="sld_trigger_level" type="unknown" value="1"/>
+        <parameter name="sld_trigger_in_enabled" type="unknown" value="0"/>
+        <parameter name="sld_advanced_trigger_entity" type="unknown" value="basic,1,"/>
+        <parameter name="sld_trigger_level_pipeline" type="unknown" value="1"/>
+        <parameter name="sld_enable_advanced_trigger" type="unknown" value="0"/>
+        <parameter name="sld_advanced_trigger_1" type="string" value="NONE"/>
+        <parameter name="sld_advanced_trigger_2" type="string" value="NONE"/>
+        <parameter name="sld_advanced_trigger_3" type="string" value="NONE"/>
+        <parameter name="sld_advanced_trigger_4" type="string" value="NONE"/>
+        <parameter name="sld_advanced_trigger_5" type="string" value="NONE"/>
+        <parameter name="sld_advanced_trigger_6" type="string" value="NONE"/>
+        <parameter name="sld_advanced_trigger_7" type="string" value="NONE"/>
+        <parameter name="sld_advanced_trigger_8" type="string" value="NONE"/>
+        <parameter name="sld_advanced_trigger_9" type="string" value="NONE"/>
+        <parameter name="sld_advanced_trigger_10" type="string" value="NONE"/>
+        <parameter name="sld_inversion_mask_length" type="unknown" value="109"/>
+        <parameter name="sld_inversion_mask" type="unknown" value="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"/>
+        <parameter name="sld_power_up_trigger" type="unknown" value="0"/>
+      </parameters>
+      <inputs/>
+      <outputs/>
+    </node>
+  </node_info>
+</sld_project_info>

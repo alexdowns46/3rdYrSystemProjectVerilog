@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Mar 17 17:35:11 2020
+Quartus II Version : 7.1 Build 156 04/30/2007 SJ Full Version
+Revision Name : AlienMain
+Top-level Entity Name : AlienMain
+Family : Cyclone II
+Device : EP2C20F484C7
+Timing Models : Final
+Total logic elements : 1,145 / 18,752 ( 6 % )
+    Total combinational functions : 875 / 18,752 ( 5 % )
+    Dedicated logic registers : 602 / 18,752 ( 3 % )
+Total registers : 602
+Total pins : 55 / 315 ( 17 % )
+Total virtual pins : 0
+Total memory bits : 3,968 / 239,616 ( 2 % )
+Embedded Multiplier 9-bit elements : 2 / 52 ( 4 % )
+Total PLLs : 0 / 4 ( 0 % )

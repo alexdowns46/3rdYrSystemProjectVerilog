@@ -1,0 +1,185 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP2C15/20 (0x020B30DD)" sof_file="" top_level_entity="AlienMain">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance compilation_mode="incremental" entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="5"/>
+    <position_info>
+      <single attribute="active tab" value="0"/>
+      <single attribute="data horizontal scroll position" value="0"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom level numerator" value="1"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="130944"/>
+      <multi attribute="timebars" size="1" value="97"/>
+    </position_info>
+    <signal_set global_temp="1" name="signal_set: 2020/03/17 17:32:22  #0">
+      <clock name="clk" polarity="posedge"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_trigger_nodes="0" sample_depth="128" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="LEDCode[0]" tap_mode="classic" type="register"/>
+          <wire name="LEDCode[1]" tap_mode="classic" type="register"/>
+          <wire name="LEDCode[2]" tap_mode="classic" type="register"/>
+          <wire name="LEDCode[3]" tap_mode="classic" type="register"/>
+          <wire name="LEDCode[4]" tap_mode="classic" type="register"/>
+          <wire name="LEDCode[5]" tap_mode="classic" type="register"/>
+          <wire name="LEDCode[6]" tap_mode="classic" type="register"/>
+          <wire name="LEDCode[7]" tap_mode="classic" type="register"/>
+          <wire name="MOSI" tap_mode="classic" type="input pin"/>
+          <wire name="SPIOut[0]" tap_mode="classic" type="register"/>
+          <wire name="SPIOut[1]" tap_mode="classic" type="register"/>
+          <wire name="SPIOut[2]" tap_mode="classic" type="register"/>
+          <wire name="SPIOut[3]" tap_mode="classic" type="register"/>
+          <wire name="SPIOut[4]" tap_mode="classic" type="register"/>
+          <wire name="SPIOut[5]" tap_mode="classic" type="register"/>
+          <wire name="SPIOut[6]" tap_mode="classic" type="register"/>
+          <wire name="SPIOut[7]" tap_mode="classic" type="register"/>
+          <wire name="SS" tap_mode="classic" type="input pin"/>
+          <wire name="State[0]~reg0" tap_mode="classic" type="register"/>
+          <wire name="State[1]~reg0" tap_mode="classic" type="register"/>
+          <wire name="State[2]~reg0" tap_mode="classic" type="register"/>
+          <wire name="State[3]~reg0" tap_mode="classic" type="register"/>
+          <wire name="State[4]~reg0" tap_mode="classic" type="register"/>
+          <wire name="SwitchInput[0]" tap_mode="classic" type="input pin"/>
+          <wire name="SwitchInput[1]" tap_mode="classic" type="input pin"/>
+          <wire name="SwitchInput[2]" tap_mode="classic" type="input pin"/>
+          <wire name="SwitchInput[3]" tap_mode="classic" type="input pin"/>
+          <wire name="SwitchInput[4]" tap_mode="classic" type="input pin"/>
+          <wire name="SwitchInput[5]" tap_mode="classic" type="input pin"/>
+          <wire name="SwitchInput[6]" tap_mode="classic" type="input pin"/>
+          <wire name="SCLK" tap_mode="probeonly" type="input pin"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="LEDCode[0]" tap_mode="classic" type="register"/>
+          <wire name="LEDCode[1]" tap_mode="classic" type="register"/>
+          <wire name="LEDCode[2]" tap_mode="classic" type="register"/>
+          <wire name="LEDCode[3]" tap_mode="classic" type="register"/>
+          <wire name="LEDCode[4]" tap_mode="classic" type="register"/>
+          <wire name="LEDCode[5]" tap_mode="classic" type="register"/>
+          <wire name="LEDCode[6]" tap_mode="classic" type="register"/>
+          <wire name="LEDCode[7]" tap_mode="classic" type="register"/>
+          <wire name="MOSI" tap_mode="classic" type="input pin"/>
+          <wire name="SPIOut[0]" tap_mode="classic" type="register"/>
+          <wire name="SPIOut[1]" tap_mode="classic" type="register"/>
+          <wire name="SPIOut[2]" tap_mode="classic" type="register"/>
+          <wire name="SPIOut[3]" tap_mode="classic" type="register"/>
+          <wire name="SPIOut[4]" tap_mode="classic" type="register"/>
+          <wire name="SPIOut[5]" tap_mode="classic" type="register"/>
+          <wire name="SPIOut[6]" tap_mode="classic" type="register"/>
+          <wire name="SPIOut[7]" tap_mode="classic" type="register"/>
+          <wire name="SS" tap_mode="classic" type="input pin"/>
+          <wire name="State[0]~reg0" tap_mode="classic" type="register"/>
+          <wire name="State[1]~reg0" tap_mode="classic" type="register"/>
+          <wire name="State[2]~reg0" tap_mode="classic" type="register"/>
+          <wire name="State[3]~reg0" tap_mode="classic" type="register"/>
+          <wire name="State[4]~reg0" tap_mode="classic" type="register"/>
+          <wire name="SwitchInput[0]" tap_mode="classic" type="input pin"/>
+          <wire name="SwitchInput[1]" tap_mode="classic" type="input pin"/>
+          <wire name="SwitchInput[2]" tap_mode="classic" type="input pin"/>
+          <wire name="SwitchInput[3]" tap_mode="classic" type="input pin"/>
+          <wire name="SwitchInput[4]" tap_mode="classic" type="input pin"/>
+          <wire name="SwitchInput[5]" tap_mode="classic" type="input pin"/>
+          <wire name="SwitchInput[6]" tap_mode="classic" type="input pin"/>
+          <wire name="SCLK" tap_mode="probeonly" type="input pin"/>
+        </data_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <net is_signal_inverted="no" name="MOSI"/>
+          <bus is_signal_inverted="no" link="all" name="SPIOut" order="lsb_to_msb" radix="unsigned_dec" state="expand" type="register">
+            <net is_signal_inverted="no" name="SPIOut[0]"/>
+            <net is_signal_inverted="no" name="SPIOut[1]"/>
+            <net is_signal_inverted="no" name="SPIOut[2]"/>
+            <net is_signal_inverted="no" name="SPIOut[3]"/>
+            <net is_signal_inverted="no" name="SPIOut[4]"/>
+            <net is_signal_inverted="no" name="SPIOut[5]"/>
+            <net is_signal_inverted="no" name="SPIOut[6]"/>
+            <net is_signal_inverted="no" name="SPIOut[7]"/>
+          </bus>
+          <net is_signal_inverted="no" name="SS"/>
+          <net is_signal_inverted="no" name="State[0]~reg0"/>
+          <net is_signal_inverted="no" name="State[1]~reg0"/>
+          <net is_signal_inverted="no" name="State[2]~reg0"/>
+          <net is_signal_inverted="no" name="State[3]~reg0"/>
+          <net is_signal_inverted="no" name="State[4]~reg0"/>
+          <bus is_signal_inverted="no" link="all" name="LEDCode" order="lsb_to_msb" radix="hex" state="expand" type="register">
+            <net is_signal_inverted="no" name="LEDCode[0]"/>
+            <net is_signal_inverted="no" name="LEDCode[1]"/>
+            <net is_signal_inverted="no" name="LEDCode[2]"/>
+            <net is_signal_inverted="no" name="LEDCode[3]"/>
+            <net is_signal_inverted="no" name="LEDCode[4]"/>
+            <net is_signal_inverted="no" name="LEDCode[5]"/>
+            <net is_signal_inverted="no" name="LEDCode[6]"/>
+            <net is_signal_inverted="no" name="LEDCode[7]"/>
+          </bus>
+          <net is_signal_inverted="no" name="SwitchInput[0]"/>
+          <net is_signal_inverted="no" name="SwitchInput[1]"/>
+          <net is_signal_inverted="no" name="SwitchInput[2]"/>
+          <net is_signal_inverted="no" name="SwitchInput[3]"/>
+          <net is_signal_inverted="no" name="SwitchInput[4]"/>
+          <net is_signal_inverted="no" name="SwitchInput[5]"/>
+          <net is_signal_inverted="no" name="SwitchInput[6]"/>
+          <net is_signal_inverted="no" name="SCLK"/>
+        </data_view>
+        <setup_view>
+          <net is_signal_inverted="no" name="MOSI"/>
+          <bus is_signal_inverted="no" link="all" name="SPIOut" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="register">
+            <net is_signal_inverted="no" name="SPIOut[0]"/>
+            <net is_signal_inverted="no" name="SPIOut[1]"/>
+            <net is_signal_inverted="no" name="SPIOut[2]"/>
+            <net is_signal_inverted="no" name="SPIOut[3]"/>
+            <net is_signal_inverted="no" name="SPIOut[4]"/>
+            <net is_signal_inverted="no" name="SPIOut[5]"/>
+            <net is_signal_inverted="no" name="SPIOut[6]"/>
+            <net is_signal_inverted="no" name="SPIOut[7]"/>
+          </bus>
+          <net is_signal_inverted="no" name="SS"/>
+          <net is_signal_inverted="no" name="State[0]~reg0"/>
+          <net is_signal_inverted="no" name="State[1]~reg0"/>
+          <net is_signal_inverted="no" name="State[2]~reg0"/>
+          <net is_signal_inverted="no" name="State[3]~reg0"/>
+          <net is_signal_inverted="no" name="State[4]~reg0"/>
+          <bus is_signal_inverted="no" link="all" name="LEDCode" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="LEDCode[0]"/>
+            <net is_signal_inverted="no" name="LEDCode[1]"/>
+            <net is_signal_inverted="no" name="LEDCode[2]"/>
+            <net is_signal_inverted="no" name="LEDCode[3]"/>
+            <net is_signal_inverted="no" name="LEDCode[4]"/>
+            <net is_signal_inverted="no" name="LEDCode[5]"/>
+            <net is_signal_inverted="no" name="LEDCode[6]"/>
+            <net is_signal_inverted="no" name="LEDCode[7]"/>
+          </bus>
+          <net is_signal_inverted="no" name="SwitchInput[0]"/>
+          <net is_signal_inverted="no" name="SwitchInput[1]"/>
+          <net is_signal_inverted="no" name="SwitchInput[2]"/>
+          <net is_signal_inverted="no" name="SwitchInput[3]"/>
+          <net is_signal_inverted="no" name="SwitchInput[4]"/>
+          <net is_signal_inverted="no" name="SwitchInput[5]"/>
+          <net is_signal_inverted="no" name="SwitchInput[6]"/>
+          <net is_signal_inverted="no" name="SCLK"/>
+        </setup_view>
+      </presentation>
+      <trigger CRC="8CD241A0" global_temp="1" name="trigger: 2020/03/17 17:32:22  #1" position="pre" power_up_trigger_mode="false" segment_size="1" trigger_in="dont_care" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" segment_size="1" trigger_in="dont_care" trigger_out="active high" trigger_type="circular"/>
+        <events>
+          <level enabled="yes" type="basic">
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <data global_temp="1" name="log: 2020/03/17 17:33:15  #0" power_up_mode="false" sample_depth="128" trigger_position="16">00000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011000000000000000000000001010101100000000000000000000000101010110000000000000000000000010101011</data>
+      </trigger>
+    </signal_set>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="lock mode" value="36110"/>
+    <multi attribute="window position" size="9" value="1773,909,398,124,0,50,124,0,0"/>
+  </global_info>
+</session>
