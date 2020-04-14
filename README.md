@@ -1,4 +1,3 @@
-# 3rdYrSystemProjectVerilog
 Verilog code for B39VS
 
 Alex Downs
